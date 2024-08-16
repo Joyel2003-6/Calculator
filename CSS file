@@ -1,0 +1,46 @@
+//code is made by joyel thomas
+.calc{
+    width: 400px;
+    height: 600px;
+    border-radius: 20px;
+    background: transparent;
+    border: solid 1px;
+    color: white;
+    backdrop-filter: blur(6px);
+    box-shadow: 0 0 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+    
+    
+}
+
+#screen{
+    border-radius: 6px;
+    margin-left: 50px;
+    width: 300px;
+    margin-top: 40px;
+    height: 60px;
+    pointer-events: none;
+    background-color: #6b7921;
+}
+.btn{
+    width: 60px;
+    height: 40px;
+    margin-left: 10px;
+    border-radius: 7px;
+    background-color: #252222;
+    font-size: 29px;
+    color: white;
+}
+.row{
+    margin-left: 52px;
+    margin-top: 50px;
+}
+.buttons{
+    margin-top: 9px;
+}
+.output{
+    margin-top: 10px;
+}
